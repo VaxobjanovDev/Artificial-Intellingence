@@ -1,0 +1,359 @@
+/* --------------Main css --------------- */
+html,
+body {
+  overflow-x: hidden;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.owl-carousel .owl-dots {
+  padding: 0 15px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.owl-carousel button.owl-dot {
+  height: 6px;
+  width: 24px;
+  background-color: #dddddd;
+  display: inline-block;
+  margin: 0 4px;
+  border-radius: 5px;
+}
+
+.owl-carousel button.owl-dot.active {
+  background-color: #47464b;
+}
+
+/* --------------Main css --------------- */
+
+/* -------------Navigation menu-------------- */
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav.show > .nav-link,
+.navbar-dark .navbar-nav .nav-link {
+  font-weight: 700;
+  font-size: 18px;
+  padding: 8px 30px;
+  color: white;
+  transition: all 0.8s ease;
+}
+
+.navbar-toggler {
+  border: none;
+}
+
+.navbar-toggler:focus {
+  outline: none;
+}
+.change {
+  background-color: rgba(7, 6, 6, 0.829);
+}
+.navbar.fixed {
+  background-color: rgba(12, 11, 11, 0.5) !important;
+  transition: all ease 0.8s;
+}
+
+.nav-link:hover {
+  cursor: pointer;
+  transition: all 0.8s ease;
+  color: rgba(107, 107, 243, 0.931) !important;
+}
+
+/* -------------Navigation menu end-------------- */
+
+/* -------------Home section start------------ */
+
+.home {
+  min-height: 100vh;
+  padding-top: 150px;
+  background-position: center;
+  background-size: cover;
+  background: linear-gradient(360deg, rgba(15, 7, 7, 0.575), black);
+}
+
+.home_text {
+  padding-top: 25%;
+}
+
+.home_text h1 {
+  font-size: 3rem;
+  font-weight: 800;
+  color: white;
+}
+
+.home_text h4 {
+  color: white;
+}
+
+.home_text p {
+  padding-top: 1rem;
+  font-size: 1rem;
+  color: rgb(190, 181, 181);
+  font-weight: 600;
+}
+.home_logo-position {
+  padding-top: 6rem;
+  padding-bottom: 2rem;
+}
+.home_logo .text-1 span {
+  color: orangered;
+  font-weight: 800;
+}
+
+.home_logo .text-2 h3 {
+  color: white;
+  font-weight: 700;
+}
+
+.home_logo .text-3 h3 {
+  color: orangered;
+  font-weight: 700;
+}
+
+.logo_rotation {
+  background-image: url("../img/Home-logo-3.png");
+  background-repeat: no-repeat;
+  background-position: left;
+  background-color: rgba(red, 0, 0, 0.9) !important;
+}
+
+.logo_rotation img {
+  transform: rotateZ(330deg);
+}
+/* -------------Home section end------------ */
+
+/*------------------ About section start----------------- */
+
+.about {
+  background-color: rgba(0, 0, 0, 0.829);
+}
+
+.about_text {
+  padding-top: 30%;
+  color: white;
+}
+
+.about_text h2 {
+  font-weight: 700;
+  padding-bottom: 1rem;
+}
+
+.about_text p {
+  font-weight: 500;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.about_items {
+  margin: 15px;
+  padding: 30px;
+  box-shadow: 0 5px 15px rgba(32, 31, 31, 0.1);
+  border-radius: 10px;
+  text-align: center;
+  color: white;
+  background-color: rgba(63, 59, 59, 0.829);
+}
+
+.about_items .img-box {
+  height: 100px;
+  width: 100px;
+  display: inline-block;
+}
+
+.about_items .text-box {
+  width: 100%;
+  height: 10rem;
+}
+
+.about_items h3 {
+  font-weight: 700;
+  font-size: 1rem;
+  padding-bottom: 0.5rem;
+}
+
+.about_items p {
+  font-weight: 500;
+  font-size: 0.8rem;
+  justify-content: space-around;
+}
+
+.about_items .img-box img {
+  width: 100%;
+  height: 100%;
+  padding-bottom: 1.5rem;
+}
+/*------------------ About section end----------------- */
+
+/*------------------ Services section start----------------- */
+
+.services {
+  background-color: rgb(41, 38, 38);
+}
+
+.services_main {
+  padding-top: 12rem;
+  color: white;
+}
+
+.services_img {
+  padding-top: 10rem;
+}
+/*------------------ Services section end----------------- */
+
+/*------------------Footer section start----------------- */
+
+.footer {
+  background-color: rgba(7, 6, 6, 0.829);
+}
+
+.footer_part {
+  color: white;
+}
+
+.footer_brand_text {
+  padding-top: 1rem;
+}
+
+.footer_brand_text a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer_brand_text a:hover {
+  color: rgba(107, 107, 243, 0.931);
+  transition: all 0.8s ease;
+}
+
+.footer_brand_text p {
+  padding-top: 1rem;
+  font-size: 0.9rem;
+}
+
+.footer_information {
+  color: white;
+}
+
+.footer_information h4 {
+  padding-top: 1rem;
+  font-size: 1rem !important;
+}
+
+.footer_information a {
+  color: white;
+  text-decoration: none;
+  font-size: 0.8rem;
+}
+
+.footer_information a:hover {
+  color: rgba(107, 107, 243, 0.931);
+  transition: all 0.8s ease;
+}
+
+.footer_text_col {
+  color: white;
+}
+
+.footer_text_col h4 {
+  padding-top: 1rem;
+  font-size: 1rem !important;
+}
+
+.footer_text_col p {
+  font-size: 0.9rem;
+  margin-bottom: 0;
+}
+
+.footer_text_col a {
+  color: white;
+  text-decoration: none;
+  padding-top: 0.5rem;
+}
+
+.footer_text_col a:hover {
+  transition: all ease 0.8s;
+  color: rgba(107, 107, 243, 0.931);
+}
+
+.footer_list a {
+  color: white;
+  font-size: 1.5rem;
+  padding: 0.5rem;
+}
+
+.footer_list a:hover {
+  transition: all ease 0.8s;
+  color: rgba(107, 107, 243, 0.931);
+}
+
+.select_form {
+  border-radius: 5px !important;
+}
+/*------------------ Footer section end----------------- */
+
+/* -----------------Media Query Resposive-----------------*/
+
+@media (min-width: 1024px) and (max-width: 1366px) {
+  .home {
+   min-height: 60vh;
+  }
+  .services_main {
+   padding-top: 5rem;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  .home {
+   min-height: 80vh;
+  }
+  .home_text {
+   padding-top: 0;
+  }
+  .logo_3 {
+   padding-left: 2rem;
+  }
+  .services_main {
+   padding-top: 4rem;
+  }
+}
+
+@media (min-width: 577px) and (max-width: 767px) {
+  .home {
+   padding-top: 0rem;
+  }
+  .logo_3 {
+   padding-left: 2rem;
+  }
+
+  .services_main {
+   padding-top: 3rem;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .navbar-toggler {
+   padding: 0.1rem;
+   border: none;
+  }
+
+  .home {
+   padding-top: 1rem;
+  }
+  .logo_1 {
+   padding: 1rem 0 1rem 1rem;
+  }
+  .logo_3 {
+   padding: 1rem 0 1rem 2rem;
+  }
+  .services_main {
+   padding-top: 0px;
+  }
+  .about_items {
+   margin: 10px;
+   padding: 15px;
+   border-radius: 10px;
+  }
+}
+
+/* -----------------Media Query Resposive end-------------- */
